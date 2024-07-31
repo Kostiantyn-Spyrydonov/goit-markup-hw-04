@@ -166,7 +166,8 @@ hero section */
     url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1440px;
+  max-width: 1440px;
+  background-size: cover;
   margin-left: auto;
   margin-right: auto;
 }
