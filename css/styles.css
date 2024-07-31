@@ -366,6 +366,25 @@ hero section */
   letter-spacing: 0.02em;
 }
 
+.portfolio-overlay-container {
+  position: relative;
+}
+
+.portfolio-overlay-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #4d5ae5;
+  color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  height: 100%;
+  width: 100%;
+  padding: 40px 32px;
+}
+
 /* footer styles */
 
 .page-footer {
