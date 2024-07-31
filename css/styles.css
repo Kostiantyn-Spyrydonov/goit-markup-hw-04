@@ -439,6 +439,7 @@ hero section */
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo-container {
@@ -447,4 +448,15 @@ hero section */
 
 .footer-media-text {
   margin-bottom: 16px;
+}
+
+.footer-social-icons-list {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
 }
